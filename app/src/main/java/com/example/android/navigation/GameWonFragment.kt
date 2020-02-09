@@ -25,7 +25,14 @@ import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
 import com.example.android.navigation.databinding.FragmentGameWonBinding
-
+import android.content.ActivityNotFoundException
+import android.content.Intent
+import androidx.core.app.ShareCompat
+import android.view.Menu
+import android.view.MenuInflater
+import android.view.MenuItem
+import android.content.pm.ResolveInfo
+import android.content.pm.PackageManager
 
 class GameWonFragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
@@ -34,9 +41,9 @@ class GameWonFragment : Fragment() {
         val binding: FragmentGameWonBinding = DataBindingUtil.inflate(
                 inflater, R.layout.fragment_game_won, container, false)
         binding.nextMatchButton.setOnClickListener {
-            view.findNavController().navigate(GameWonFragmentDirections.actionGameFragmentToGameWonFragment())//navigate(R.id.action_gameWonFragment_to_gameFragment)
+            view!!.findNavController().navigate(GameWonFragmentDirections.actionGameFragmentToGameWonFragment())//navigate(R.id.action_gameWonFragment_to_gameFragment)
         }
-        var args = GameWonWonFragmentArgs.fromBundle(arguments)
+        val args = GameWonFragmentArgs.fromBundle(arguments!!)
         Toast.makeText(context,
                 "NumCorrect: ${args.numCorrect}, Numquestions: ${args.numQuestions}",
                 Toast.LENGTH_LONG).show()

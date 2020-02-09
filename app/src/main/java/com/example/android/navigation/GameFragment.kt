@@ -103,8 +103,8 @@ class GameFragment : Fragment() {
                     }
                 } else {
                     // Game over! A wrong answer sends us to the gameOverFragment.
-                    view.findNavController().navigate(// Using directions to navigate to the GameOverFragment
-                            view.findNavController().navigate(GameFragmentDirections.actionGameFragmentToGameOverFragment(numQuestions, questionIndex))
+                    //view.findNavController().navigate(// Using directions to navigate to the GameOverFragment
+                    view.findNavController().navigate(GameFragmentDirections.actionGameFragmentToGameOverFragment())
                 }
             }
         }
