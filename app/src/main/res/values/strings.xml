@@ -20,7 +20,7 @@
     <string name="try_again">Попробуем ещё?</string>
     <string name="position">Position</string>
     <string name="select_an_avatar">Select an Avatar</string>
-    <string name="android_trivia">SkyUniversity Lesson3</string>
+    <string name="r4s_about">SkyUniversity Lesson3</string>
     <string name="about_text"><![CDATA[<h2>    Питание и здоровье</h2>
 Планирование питания, исходя из персональных предпочтений и ограничений
 <br /> Интерактивная книга рецептов со встроенным запуском приготовления блюд в один клик
@@ -43,18 +43,17 @@
 <br /> Геймофикация пользователей внутри приложения]]>
     </string>
     <string name="rules_text">Выберите вариант ответа из списка. Если ответ будет правильным, будет предложен следу/щий вопрос.\n\nЕсли ответ будет неверным, проветка закончится. Можно вернуться в начало опроса используя стрелку или нативную кнопку Назад.</string>
-    <string name="rules">Rules</string>
-    <string name="about">About</string>
-    <string name="trivia_hint">Trivia Hint</string>
+    <string name="rules">Правила</string>
+    <string name="about">О нас</string>
+    <string name="r4s_hint">R4S Hint</string>
     <string name="title_android_trivia_question">SkyUniversity (%1$d/%2$d)</string>
     <string name="title_about_trivia">О SkyUniversity</string>
     <string name="title_trivia_rules">SkyUniversity правила</string>
     <string name="share_success_text">Я успешно ответил на %1$d/%2$d вопросов #SkyUniversity! Ура, можете меня поздравить!</string>
     <string name="submit_button">Ответить</string>
     <string name="congratulations">Поздравляю!</string>
-    <string name="share">Share</string>
+    <string name="share">Поделиться</string>
     <string name="sharing_not_available">Поделиться рзультатом невозможно :(</string>
-
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="start">Начать</string>
