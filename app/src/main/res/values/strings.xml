@@ -50,7 +50,7 @@
     <string name="title_about_trivia">О SkyUniversity</string>
     <string name="title_trivia_rules">SkyUniversity правила</string>
     <string name="share_success_text">Я успешно ответил на %1$d/%2$d вопросов #SkyUniversity! Ура, можете меня поздравить!</string>
-    <string name="submit_button">Готово</string>
+    <string name="submit_button">Ответить</string>
     <string name="congratulations">Поздравляю!</string>
     <string name="share">Share</string>
     <string name="sharing_not_available">Поделиться рзультатом невозможно :(</string>
