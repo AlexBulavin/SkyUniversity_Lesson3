@@ -50,7 +50,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_chainStyle="packed"
-                app:srcCompat="@drawable/android_category_simple" />
+                app:srcCompat="@drawable/img350x250_1" />
 
             <TextView
                 android:id="@+id/questionText"
@@ -68,7 +68,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/questionImage"
-                tools:text="What color is the Android mascot?" />
+                tools:text="Какой прибор изображен на фото?" />
 
             <RadioGroup
                 android:id="@+id/questionRadioGroup"
